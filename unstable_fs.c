@@ -19,7 +19,7 @@ static int (*real_fsync)(int) = NULL;
 
 // Default-Werte
 #define DEFAULT_ERROR_PROBABILITY 5  // 20% Fehlerchance
-#define DEFAULT_MAX_DELAY_MS 10000  // max. 10 Sekunden Verzögerung
+#define DEFAULT_MAX_DELAY_MS 1000  // max. 1 Sekunden Verzögerung
 
 int ERROR_PROBABILITY = DEFAULT_ERROR_PROBABILITY;
 int MAX_DELAY_MS = DEFAULT_MAX_DELAY_MS;
